@@ -15,7 +15,7 @@ input{
 body{
   background-color: #ffe766;
 }
-/*small phone screen */
+/*small mobile screen */
 @media screen and (max-width: 480px) {
   #container{
     text-align: center;
@@ -28,8 +28,26 @@ body{
     width: 65%;
   }
   #btn{
-    width: 30%;
+    width: 40%;
     display: block;
     margin: auto;
   }
+}
+/*desktop screen */
+@media screen and (min-width: 780px) {
+  #container{
+    text-align: center;
+    margin: auto;
+  }
+  input{
+    width: 50%;
+    margin: 8px 0;
+  }
+  #btn{
+    width: 30%;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+  }
+
 }
