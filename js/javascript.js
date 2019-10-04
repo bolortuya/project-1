@@ -1,3 +1,3 @@
 function myFunction(getElementById("btn") {
-    alert('Button was clicked!');
+    var onClick = btn.alert('Button was clicked!');
   }
