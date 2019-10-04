@@ -14,7 +14,8 @@ input{
 }
 body{
   background-color: #ffe766;
-}
+  font-family: sans-serif;
+ }
 /*small mobile screen */
 @media screen and (max-width: 480px) {
   #container{
