@@ -1,0 +1,35 @@
+h1{
+  text-align: center;
+}
+label{
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+}
+input{
+  width: 70%;
+  padding: 10px;
+  margin: auto;
+  border-radius: 4px;
+}
+body{
+  background-color: #ffe766;
+}
+/*small phone screen */
+@media screen and (max-width: 480px) {
+  #container{
+    text-align: center;
+    margin: auto;
+  }
+  body{
+    font-size: 0.8em;
+  }
+  input{
+    width: 65%;
+  }
+  #btn{
+    width: 30%;
+    display: block;
+    margin: auto;
+  }
+}
